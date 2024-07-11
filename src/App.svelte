@@ -1,43 +1,22 @@
 <script>
-	export let name;
-	let otroNombre = "esteban";
+
 	
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<h2>HELLO {otroNombre}</h2>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
-	 <p>ESTO ESTA ESCRITO DESDE TERMUX </p>
-	  <ul>
-	    <li>Esto es una lista de prueba</li>
-	    <li>Esto es una lista de prueba</li>
-	    <li>Esto es una lista de prueba</li>
-	    <li>Esto es una lista de prueba</li>
-	  </ul>
-
-	  <h3>Manejo de titulo </h3>
-  
+	<h1>Esteba Hernandez</h1>
+	<p>Soy estudiante de Ingeniería en Mecatrónica con una gran pasión por la electrónica y la robótica. Además, me interesa profundamente la programación, abarcando tanto el desarrollo web y backend como la creación de proyectos de software. He participado en hackathones, lo que me ha permitido identificar áreas de mejora en mis estudios y reconocer mis avances. El primero de ellos ha sido salir de mi zona de miedo y confort. He creado proyectos personales de manera autodidacta, simples pero efectivos, y siempre con el objetivo de aprender </p>
+	
+	
+	
+	
+	
 </main>
 
 <style>
-	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
-	}
-
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
-	}
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing
+  }
 </style>
